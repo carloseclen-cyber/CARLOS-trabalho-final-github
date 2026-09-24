@@ -1,0 +1,235 @@
+
+/* ==============================
+   CONFIGURAÇÃO GERAL
+   ============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+
+/* ==============================
+   TÍTULO PRINCIPAL
+   ============================== */
+
+h1 {
+    text-align: center;
+    padding: 35px 15px;
+
+    background-color: #080808;
+    color: #d40000;
+
+    font-size: 42px;
+
+    border-bottom: 3px solid #a00000;
+
+    text-shadow: 0 0 10px #700000;
+}
+
+
+/* ==============================
+   TÍTULOS DAS SEÇÕES
+   ============================== */
+
+h2 {
+    width: 80%;
+    margin: 35px auto 15px;
+    padding: 12px 15px;
+
+    color: #e00000;
+    background-color: #1b1b1b;
+
+    border-left: 4px solid #c00000;
+    border-bottom: 1px solid #444;
+
+    font-size: 25px;
+}
+
+
+/* ==============================
+   SUBTÍTULOS
+   ============================== */
+
+h3 {
+    color: #e00000;
+    margin-bottom: 8px;
+}
+
+
+/* ==============================
+   PARÁGRAFOS
+   ============================== */
+
+p {
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+
+    background-color: #1b1b1b;
+
+    border-left: 2px solid #700000;
+
+    border-radius: 4px;
+}
+
+
+/* ==============================
+   LISTAS
+   ============================== */
+
+ul {
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px 40px;
+
+    background-color: #1b1b1b;
+
+    border-left: 2px solid #700000;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+/* ==============================
+   LINKS
+   ============================== */
+
+a {
+    color: #e00000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+/* ==============================
+   IMAGENS
+   ============================== */
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+/* ==============================
+   PERSONAGENS
+   ============================== */
+
+.personagens {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.personagem {
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 20px;
+    padding: 15px;
+
+    background-color: #1b1b1b;
+
+    border-left: 4px solid #a00000;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+
+/* Imagem dos personagens */
+
+.personagem img {
+    width: 120px;
+    height: 150px;
+
+    object-fit: cover;
+
+    flex-shrink: 0;
+}
+
+
+/* Título dos personagens */
+
+.personagem h3 {
+    margin: 5px 0 8px 0;
+    padding: 0;
+
+    color: #e00000;
+
+    background: none;
+    border: none;
+
+    text-align: left;
+}
+
+
+/* Texto dos personagens */
+
+.personagem p {
+    width: auto;
+
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    border: none;
+}
+
+
+/* Efeito dos personagens */
+
+.personagem:hover {
+    transform: translateY(-3px);
+
+    border-left-color: #e00000;
+
+    box-shadow: 0 5px 15px rgba(180, 0, 0, 0.25);
+}
+
+
+/* ==============================
+   CENÁRIOS
+   ============================== */
+
+.cenarios {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cenario {
+    margin-bottom: 25px;
+    padding: 15px;
+
+    background-color: #1b1b1b;
+
+    border-left: 4px solid #a00000;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+
+/* Imagem dos cenários */
+
+.cenario img {
+    width: 100%;
+    max-height: 250px;
+
+    object-fit: cover;
+}

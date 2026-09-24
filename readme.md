@@ -1,16 +1,24 @@
-# ⚔️ Bleach - Página Informativa
+# Bleach - Página Informativa
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
-Este projeto consiste em uma Landing Page informativa sobre **Bleach**, mangá e anime japonês criado por **Tite Kubo**.
+Este projeto é uma página web informativa sobre **Bleach**, mangá e anime japonês criado por **Tite Kubo**.
 
-A página apresenta informações sobre a obra, sua história, personagens, grupos, poderes, cenários, principais arcos, antagonistas, final e curiosidades.
+A página apresenta informações sobre a história da obra, seus personagens, grupos, poderes, cenários, principais arcos, antagonistas e algumas curiosidades.
 
-O objetivo do projeto é desenvolver uma página web organizada utilizando tecnologias básicas de desenvolvimento front-end.
+O projeto foi desenvolvido como uma atividade de desenvolvimento web, utilizando HTML, CSS e JavaScript.
 
-## 🎯 Conteúdo da página
+## Tecnologias utilizadas
 
-A página apresenta:
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+
+## Conteúdo
+
+A página possui as seguintes seções:
 
 * Sobre a obra
 * História
@@ -24,51 +32,64 @@ A página apresenta:
 * Curiosidades
 * Conclusão
 
-## 💻 Tecnologias utilizadas
-
-* **HTML5** — estrutura e organização do conteúdo
-* **CSS3** — estilização e aparência da página
-* **JavaScript** — funcionalidades e interações
-* **Git** — controle de versão
-* **GitHub** — hospedagem e gerenciamento do projeto
-
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 
-bleach/
+Bleach/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
 ├── .gitignore
+│
+└── imagens/
 
 
-## 🔀 Controle de versão
+## Como executar
 
-O projeto utiliza **Git** para controle de versão.
+### 1. Baixe ou clone o projeto
 
-Durante o desenvolvimento foram utilizadas branches para organizar alterações e praticar o processo de integração de diferentes versões do projeto.
 
-Também foi realizada a resolução de conflitos entre branches como parte das atividades de versionamento.
+git clone https://github.com/carloseclen-cyber/CARLOS-trabalho-final-github.git
 
-## 🏷️ Versão
+### 2. Abra a pasta do projeto
 
-A primeira versão estável do projeto é identificada pela tag:
+Entre na pasta onde os arquivos foram salvos.
+
+### 3. Execute a página
+
+Abra o arquivo:
+
+
+index.html
+
+em um navegador.
+
+Também é possível utilizar o **Live Server** no Visual Studio Code.
+
+## Git e GitHub
+
+O projeto utiliza Git para controle de versão e GitHub para armazenar o código.
+
+Durante o desenvolvimento foram utilizadas branches para organizar as alterações do projeto.
+
+A versão inicial do projeto foi identificada pela tag:
+
 v1.0.0
 
+## .gitignore
 
-A tag foi criada seguindo o padrão **Semantic Versioning (SemVer)**.
+O projeto possui um arquivo .gitignore para evitar que arquivos desnecessários ou informações sensíveis sejam enviados para o repositório.
 
-## 🔒 Segurança
+## Autor
+ 
+Nome: Carlos Eduardo Clen
 
-O projeto possui um arquivo `.gitignore` na raiz do repositório para evitar o envio de arquivos desnecessários ou informações que não devem ser publicadas.
+GitHub:https://github.com/carloseclen-cyber
 
-Arquivos como configurações locais, arquivos temporários e informações sensíveis devem permanecer fora do repositório.
+E-mail:carlos_e_clen@estudante.sesisenai.org.br
 
-## 📚 Finalidade
+## Finalidade
 
-Este projeto foi desenvolvido para fins **educacionais**, como parte das atividades de desenvolvimento web e utilização do Git e GitHub.
-
-
-
+Projeto desenvolvido para fins educacionais, com o objetivo de praticar desenvolvimento web e controle de versão utilizando Git e GitHub.
